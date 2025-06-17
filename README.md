@@ -57,8 +57,8 @@
 
 ## 📁 Arquitectura del Sistema
 
-
-julianpinto15-software-prestamos/
+```
+-prestamos/
 ├── 📄 README.md                    # Documentación principal
 └── 💰 mini-control-empleados/      # Aplicación principal
     ├── 🔧 mvnw                     # Maven wrapper (Unix)
@@ -117,6 +117,7 @@ julianpinto15-software-prestamos/
         └── 🔧 wrapper/
             └── ⚙ maven-wrapper.properties
 
+```
 
 ## ⚡ Funcionalidades Destacadas
 
@@ -149,13 +150,17 @@ julianpinto15-software-prestamos/
 
 ### Pasos de Instalación
 
+```
 1. *📥 Clonar el repositorio*
    bash
-   git clone https://github.com/Julianpinto15/SoftwarePrestamosP.git
+   git clone https://github.com/BARBOSA191919/Software-Prestamos-P..git
    cd SoftwarePrestamosP/mini-control-empleados
-   
+
+```
 
 2. *⚙ Configurar base de datos*
+   
+```
    properties
    # Editar src/main/resources/application.properties
    
@@ -168,8 +173,10 @@ julianpinto15-software-prestamos/
    spring.datasource.username=tu_usuario
    spring.datasource.password=tu_password
    
+```
 
 3. *🏗 Compilar y ejecutar*
+```
    bash
    # Compilar proyecto
    ./mvnw clean compile
@@ -179,13 +186,15 @@ julianpinto15-software-prestamos/
    
    # O usar Maven instalado
    mvn spring-boot:run
-   
+```
 
 4. *🌐 Acceder a la aplicación*
+```
    - *URL:* http://localhost:8080
    - *Usuario:* admin
    - *Contraseña:* admin
    - *H2 Console:* http://localhost:8080/h2-console
+```
 
 ## 🎯 Casos de Uso Perfectos
 
@@ -250,6 +259,7 @@ julianpinto15-software-prestamos/
 
 ## 🏗 Arquitectura Técnica
 
+```
 ### *Patrón MVC Implementado*
 
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -267,6 +277,7 @@ julianpinto15-software-prestamos/
                         │  (Data Access)  │
                         └─────────────────┘
 
+```
 
 ## 📄 Licencia
 
@@ -294,7 +305,7 @@ Este proyecto está bajo la *Licencia MIT* - ver [LICENSE](LICENSE) para más de
 
 Si este sistema te ha sido útil, ¡considera darle una ⭐ en GitHub!
 
-*[⭐ Star en GitHub](https://github.com/Julianpinto15/SoftwarePrestamosP.)*
+*[⭐ Star en GitHub](https://github.com/BARBOSA191919?tab=repositories)*
 
 </div>
 
