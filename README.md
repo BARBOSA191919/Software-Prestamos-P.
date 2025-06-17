@@ -305,7 +305,7 @@ Este proyecto está bajo la *Licencia MIT* - ver [LICENSE](LICENSE) para más de
 
 Si este sistema te ha sido útil, ¡considera darle una ⭐ en GitHub!
 
-*[⭐ Star en GitHub](https://github.com/BARBOSA191919?tab=repositories)*
+*[⭐ Star en GitHub](https://github.com/BARBOSA191919/Software-Prestamos-P.)*
 
 </div>
 
