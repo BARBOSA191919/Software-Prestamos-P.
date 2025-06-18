@@ -58,7 +58,7 @@
 ## 📁 Arquitectura del Sistema
 
 ```
--prestamos/
+julianpinto15-software-prestamos/
 ├── 📄 README.md                    # Documentación principal
 └── 💰 mini-control-empleados/      # Aplicación principal
     ├── 🔧 mvnw                     # Maven wrapper (Unix)
@@ -150,17 +150,15 @@
 
 ### Pasos de Instalación
 
-```
 1. *📥 Clonar el repositorio*
+   ```
    bash
-   git clone https://github.com/BARBOSA191919/Software-Prestamos-P..git
+   git clone https://github.com/Julianpinto15/SoftwarePrestamosP..git
    cd SoftwarePrestamosP/mini-control-empleados
-
-```
+   ```
 
 2. *⚙ Configurar base de datos*
-   
-```
+   ```
    properties
    # Editar src/main/resources/application.properties
    
@@ -172,11 +170,10 @@
    spring.datasource.url=jdbc:mysql://localhost:3306/prestamistas
    spring.datasource.username=tu_usuario
    spring.datasource.password=tu_password
-   
-```
+   ```
 
 3. *🏗 Compilar y ejecutar*
-```
+   ```
    bash
    # Compilar proyecto
    ./mvnw clean compile
@@ -186,8 +183,8 @@
    
    # O usar Maven instalado
    mvn spring-boot:run
-```
-
+   
+    ```
 4. *🌐 Acceder a la aplicación*
 ```
    - *URL:* http://localhost:8080
@@ -207,17 +204,27 @@
 
 ## 📸 Capturas del Sistema
 
+### 🛡Login
+![Login](https://github.com/user-attachments/assets/2e0c95bb-054f-43f9-862c-be8537e68b14)
+
 ### 🎛 Dashboard Ejecutivo
-![Dashboard](https://via.placeholder.com/800x400/2563eb/white?text=Dashboard+Prestamos)
+![Dashboard](https://github.com/user-attachments/assets/49a2e311-dca3-431e-b841-48f3632ba452)
 
 ### 💰 Gestión de Préstamos
-![Prestamos](https://via.placeholder.com/800x400/059669/white?text=Gestion+Prestamos)
+![Prestamos](https://github.com/user-attachments/assets/22f7a507-7e25-4ac4-a2b5-ef6ca4d2db71)
 
-### 📊 Control de Caja
-![Caja](https://via.placeholder.com/800x400/dc2626/white?text=Control+Caja)
+### 💰 Edicion de Préstamos
+![EdiccionPrestamo](https://github.com/user-attachments/assets/f39642a0-9074-4bb7-b58d-da1b4ca1d508)
 
-### 📈 Reportes Avanzados
-![Reportes](https://via.placeholder.com/800x400/7c3aed/white?text=Reportes+Financieros)
+### 📊 Informacion Prestamo
+![Iformacion](https://github.com/user-attachments/assets/dbfbbe0a-ef59-4303-87ee-df5607952264)
+
+### 📈 Registrar Abono
+![Abono](https://github.com/user-attachments/assets/e7973260-c37a-4b57-b90d-e441e6a5b5dd)
+
+### 📈 Agregar dinero
+![Agregar](https://github.com/user-attachments/assets/b417397a-3071-47bd-8bbf-e354e545a565)
+
 
 ## 🔄 Características Spring Boot
 
@@ -259,8 +266,8 @@
 
 ## 🏗 Arquitectura Técnica
 
-```
 ### *Patrón MVC Implementado*
+```
 
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   📱 Vista      │────│  🎮 Controlador │────│  🏗 Modelo      │
@@ -276,7 +283,6 @@
                         │  🗄 Repositorio │
                         │  (Data Access)  │
                         └─────────────────┘
-
 ```
 
 ## 📄 Licencia
@@ -285,14 +291,14 @@ Este proyecto está bajo la *Licencia MIT* - ver [LICENSE](LICENSE) para más de
 
 ## 👨‍💻 Desarrolladores
 
-*Julián Pinto* - Desarrollador Full Stack
+*Julián Pinto* - Software Developer
 - 🌐 *GitHub:* [@julianpinto15](https://github.com/Julianpinto15)
 - 💼 *LinkedIn:* [Julián Pinto](https://www.linkedin.com/in/julian-pinto15/)
 - 📧 *Email:* julianpinto700@gmail.com
 
 ---
 
-*Santiago Barbosa* - Desarrollador Full Stack
+*Santiago Barbosa* - Software Developer
 - 🌐 *GitHub:* [@BARBOSA191919](https://github.com/BARBOSA191919)
 - 💼 *LinkedIn:* [Santiago Barbosa](https://www.linkedin.com/in/santiago-barbosa-903641209/)
 - 📧 *Email:* sbarbosarivas@gmail.com
